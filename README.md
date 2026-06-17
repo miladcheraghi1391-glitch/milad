@@ -1,1 +1,60 @@
-# milad
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت شخصی من</title>
+    <meta name="description" content="اولین سایت من که با گوشی ساختم">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 120px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .box {
+            background: rgba(0,0,0,0.3);
+            display: inline-block;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="box">
+        <h1>🚀 سلام! من Milad هستم</h1>
+        <p>این اولین سایت منه که خودم ساختم</p>
+        <button onclick="alert('خوش اومدی 👋')">کلیک کن</button>
+    </div>
+</div>
+
+</body>
+</html># milad
